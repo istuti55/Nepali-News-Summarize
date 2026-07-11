@@ -1,3 +1,14 @@
+---
+title: Nepali News Summarizer
+emoji: 🇳🇵
+colorFrom: red
+colorTo: blue
+sdk: gradio
+sdk_version: "5.0.0"
+app_file: app.py
+pinned: false
+---
+
 # 🇳🇵 Nepali News Summarizer using QLoRA
 
 A fine-tuned Large Language Model for summarizing Nepali news articles using **QLoRA** and **Qwen2.5-1.5B-Instruct**.
@@ -53,12 +64,20 @@ https://huggingface.co/tstuti7/nepali-qlora-model
 
 ---
 
+## 🌐 Live Demo
+
+Try it here:
+
+https://huggingface.co/spaces/tstuti7/nepali-news-summarizer
+
+---
+
 ## 🚀 Run Locally
 
 Clone the repository
 
 ```bash
-git clonehttps://github.com/istuti55/Nepali-News-Summarize.git  
+git clone https://github.com/istuti55/Nepali-News-Summarize.git
 cd Nepali-News-Summarize
 ```
 
