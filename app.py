@@ -78,7 +78,7 @@ def summarize(text):
     inputs = {k: v.to(model.device) for k, v in inputs.items()}
 
     with torch.no_grad():
-    outputs = model.generate(
+       outputs = model.generate(
     **inputs,
     max_new_tokens=250,
     temperature=0.4,
@@ -86,7 +86,6 @@ def summarize(text):
     do_sample=True,
     repetition_penalty=1.15,
     pad_token_id=tokenizer.eos_token_id
-)
 )
         
 
