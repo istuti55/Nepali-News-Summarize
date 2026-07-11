@@ -1,6 +1,6 @@
 ---
 title: Nepali News Summarizer
-emoji: 🇳🇵
+emoji: 📰
 colorFrom: red
 colorTo: blue
 sdk: gradio
